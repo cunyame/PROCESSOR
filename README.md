@@ -37,14 +37,3 @@ This project implements a simplified 5-stage pipelined MIPS32 processor in Veril
 2. Set `test_mips32` as the top module.
 3. Run behavioral simulation.
 4. Observe simulation output or open `mips.vcd` in waveform viewer.
-
----
-
-## 💻 Output Example
-
-For computing `7!` (factorial 7):
-
-```text
-Time=0     | R2 =    2 | R3 =    3 | R10 =     10 | Mem[200] =     7 | Mem[198] = x | HALTED = 0
-...
-Time=247000| R2 = 5040 | R3 =    0 | R10 =   200  | Mem[200] =     7 | Mem[198] = 5040 | HALTED = 1
